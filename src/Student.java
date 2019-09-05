@@ -7,4 +7,7 @@ public class Student {
         this.rollno = rollno;
     }
 
+    public String toString() {
+        return "My name is " + name + "Roll no is" + rollno;
+    }
 }
