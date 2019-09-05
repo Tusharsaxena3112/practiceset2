@@ -8,6 +8,6 @@ public class Student {
     }
 
     public String toString() {
-        return "My name is " + name + "Roll no is" + rollno;
+        return "My name is " + name + "Roll no is " + rollno;
     }
 }

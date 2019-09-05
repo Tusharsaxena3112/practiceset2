@@ -6,5 +6,6 @@ public class Main {
         String name = input.nextLine();
         long rollno = input.nextLong();
         Student student = new Student(name, rollno);
+        System.out.println(student);
     }
 }
