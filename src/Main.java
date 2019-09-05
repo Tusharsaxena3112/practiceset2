@@ -12,6 +12,6 @@ public class Main {
         double length = input.nextDouble();
         double breadth = input.nextDouble();
         Rectangle rectangle = new Rectangle(length, breadth);
-        rectangle.calculateArea();
+        System.out.println(rectangle.calculateArea());
     }
 }
